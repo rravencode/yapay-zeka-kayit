@@ -8,4 +8,4 @@
 - Bir hata veya bir sorunla mı karşılaştın? o zaman [**Raven's**](https://discord.gg/altyapilar) topluluk sunucusuna katıl.
 
 # ⚠ | Uyarı
-- Bu projenin alınıp başka bir yerde paylaşılması veya sahiplenmesi katiyen yasaktır, `GNU-3` lisansı ile korunmaktadır.
+- Bu projenin alınıp başka bir yerde paylaşılması veya sahiplenmesi katiyen yasaktır, `GPL-3` lisansı ile korunmaktadır.
