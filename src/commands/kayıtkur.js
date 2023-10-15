@@ -1,9 +1,11 @@
-const { EmbedBuilder } = require("discord.js");
+const { EmbedBuilder, PermissionsBitField } = require("discord.js");
 const db = require("croxydb");
 
 module.exports = {
   name: "kayıtkur",
   description: "Discord sunucunuzun kayıt sistemini ayarlayın.",
+  default_member_permissions: [PermissionsBitField.ManageRoles],
+  dm_permission: false,
   options: [
     {
       type: 7,
@@ -30,7 +32,6 @@ module.exports = {
       required: true
     }
   ],
-  
   async execute(client, interaction) {
     await interaction.deferReply();
     

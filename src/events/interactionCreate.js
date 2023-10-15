@@ -102,9 +102,9 @@ module.exports = {
 
           if (channel && log && erkekRol && kızRol) {
             let yeniIsım = düzgünİsim(isim).yeniIsım;
-            let cinsiyet = nameData.sex;
-
-            console.log(isim.split(" ")[0].toLowerCase());
+            let cinsiyet = isimler.find(
+              (c) => c.name.toLowerCase() === isim.split(" ")[0].toLowerCase()
+            );
 
             if (cinsiyet && cinsiyet.sex === "E") {
               interaction.member.roles.add(erkekRol.id);
